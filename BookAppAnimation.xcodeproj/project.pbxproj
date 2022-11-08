@@ -14,6 +14,9 @@
 		15A4B0BD291A63E600D3C41E /* BookAppAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4B0BC291A63E600D3C41E /* BookAppAnimationTests.swift */; };
 		15A4B0C7291A63E600D3C41E /* BookAppAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4B0C6291A63E600D3C41E /* BookAppAnimationUITests.swift */; };
 		15A4B0C9291A63E600D3C41E /* BookAppAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4B0C8291A63E600D3C41E /* BookAppAnimationUITestsLaunchTests.swift */; };
+		15A4B0D8291A653D00D3C41E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4B0D7291A653D00D3C41E /* Book.swift */; };
+		15A4B0DA291A683C00D3C41E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4B0D9291A683C00D3C41E /* Home.swift */; };
+		15A4B0DC291A85AE00D3C41E /* IsometricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4B0DB291A85AE00D3C41E /* IsometricView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		15A4B0C2291A63E600D3C41E /* BookAppAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookAppAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A4B0C6291A63E600D3C41E /* BookAppAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAppAnimationUITests.swift; sourceTree = "<group>"; };
 		15A4B0C8291A63E600D3C41E /* BookAppAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAppAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15A4B0D7291A653D00D3C41E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		15A4B0D9291A683C00D3C41E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		15A4B0DB291A85AE00D3C41E /* IsometricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsometricView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				15A4B0AB291A63E400D3C41E /* BookAppAnimationApp.swift */,
+				15A4B0D5291A652300D3C41E /* View */,
+				15A4B0D6291A652C00D3C41E /* Model */,
 				15A4B0AD291A63E400D3C41E /* ContentView.swift */,
 				15A4B0AF291A63E600D3C41E /* Assets.xcassets */,
 				15A4B0B1291A63E600D3C41E /* Preview Content */,
@@ -125,6 +133,23 @@
 				15A4B0C8291A63E600D3C41E /* BookAppAnimationUITestsLaunchTests.swift */,
 			);
 			path = BookAppAnimationUITests;
+			sourceTree = "<group>";
+		};
+		15A4B0D5291A652300D3C41E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15A4B0D9291A683C00D3C41E /* Home.swift */,
+				15A4B0DB291A85AE00D3C41E /* IsometricView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15A4B0D6291A652C00D3C41E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15A4B0D7291A653D00D3C41E /* Book.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +284,9 @@
 			files = (
 				15A4B0AE291A63E400D3C41E /* ContentView.swift in Sources */,
 				15A4B0AC291A63E400D3C41E /* BookAppAnimationApp.swift in Sources */,
+				15A4B0DA291A683C00D3C41E /* Home.swift in Sources */,
+				15A4B0D8291A653D00D3C41E /* Book.swift in Sources */,
+				15A4B0DC291A85AE00D3C41E /* IsometricView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
